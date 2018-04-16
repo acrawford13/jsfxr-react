@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+textarea {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section {
+  /* border: 3px solid black; */
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.control {
+  /* border: 1px solid orange; */
+  text-align: center;
+  /* display: inline-block; */
+}
+
+.input {
+  background-color: #eee;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.input > * {
+  display: inline-block;
+  /* width: 33%; */
+}
+
+.description {
+  font-size: 0.75rem;
+  color: #444;
+}
